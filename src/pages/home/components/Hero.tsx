@@ -76,8 +76,8 @@ export default function Hero() {
         {/* Logo image centered */}
         <div className="flex justify-center mb-6">
           <img
-            src="https://static.readdy.ai/image/68f89381c4c7240bb69246b185e50103/db622031ce3feec7752e3a603a572754.jpeg"
-            alt="とんかつ今井ロゴ"
+            src=""
+            alt="とんかつ"
             className="w-20 h-20 md:w-24 md:h-24 object-cover rounded-full border-2 border-white/30"
           />
         </div>
@@ -87,7 +87,7 @@ export default function Hero() {
           className="text-white text-4xl md:text-6xl lg:text-7xl font-light tracking-[0.2em] mb-6 opacity-0"
           style={{ fontFamily: "'Noto Serif JP', serif" }}
         >
-          とんかつ今井
+          とんかつ
         </h1>
 
         <p
@@ -101,12 +101,12 @@ export default function Hero() {
           className="text-white/70 text-sm md:text-base tracking-wider"
           style={{ fontFamily: "'Noto Sans JP', sans-serif" }}
         >
-          西新宿 / 北新地 / 軽井沢 / 新橋
+          テキスト / テキスト / テキスト / テキスト
         </p>
 
         {/* Store badges */}
         <div className="flex flex-wrap items-center justify-center gap-3 mt-8">
-          {["西新宿", "北新地", "軽井沢", "新橋 NEW"].map((store) => (
+          {["text", "text", "text", "text"].map((store) => (
             <span
               key={store}
               className="px-4 py-1.5 border border-white/40 text-white/80 text-xs tracking-widest rounded-full"

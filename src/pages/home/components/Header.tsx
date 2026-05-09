@@ -60,8 +60,8 @@ export default function Header() {
           >
             <div className="w-10 h-10 flex items-center justify-center">
               <img
-                src="https://static.readdy.ai/image/68f89381c4c7240bb69246b185e50103/db622031ce3feec7752e3a603a572754.jpeg"
-                alt="とんかつ今井ロゴ"
+                src=""
+                alt="とんかつ"
                 className="w-10 h-10 object-cover rounded-full"
               />
             </div>
@@ -71,7 +71,7 @@ export default function Header() {
               }`}
               style={{ fontFamily: "'Noto Serif JP', serif" }}
             >
-              とんかつ今井
+              とんかつ
             </span>
           </a>
 
@@ -94,7 +94,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="https://www.instagram.com/tonkatsu_imai_official"
+              href="https://www.instagram.com"
               target="_blank"
               rel="nofollow noopener"
               className={`w-8 h-8 flex items-center justify-center transition-colors duration-300 hover:text-amber-600 cursor-pointer ${
@@ -150,14 +150,14 @@ export default function Header() {
           <div className="flex items-center gap-3">
             <img
               src="https://static.readdy.ai/image/68f89381c4c7240bb69246b185e50103/db622031ce3feec7752e3a603a572754.jpeg"
-              alt="とんかつ今井ロゴ"
+              alt="とんかつ"
               className="w-10 h-10 object-cover rounded-full"
             />
             <span
               className="text-stone-800 font-semibold text-lg"
               style={{ fontFamily: "'Noto Serif JP', serif" }}
             >
-              とんかつ今井
+              とんかつ
             </span>
           </div>
         </div>
@@ -181,7 +181,7 @@ export default function Header() {
           ))}
 
           <a
-            href="https://www.instagram.com/tonkatsu_imai_official"
+            href="https://www.instagram.com/"
             target="_blank"
             rel="nofollow noopener"
             className="flex items-center gap-4 px-4 py-5 text-stone-700 text-lg font-medium rounded-lg hover:bg-amber-50 hover:text-amber-700 transition-colors cursor-pointer mt-2"
